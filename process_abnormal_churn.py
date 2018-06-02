@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import os
 
 # def get_data():
 # 	df = pd.read_csv('~/Documents/Classes/udemy_deep_learning/sample_disconnects.csv', header=None)
@@ -30,8 +31,14 @@ import pandas as pd
 
 
 def get_data():
+	
+	#cwd = os.getcwd()
+	
 	#df = pd.read_csv('~/Documents/Classes/udemy_deep_learning/machine_learning_examples/ann_logistic_extra/ecommerce_data.csv')
-	df = pd.read_csv('~/Documents/Classes/udemy_deep_learning/disconnects_sample_neural_network.csv')
+	#df = pd.read_csv('~/Documents/Classes/udemy_deep_learning/disconnects_sample_neural_network.csv')
+	
+	# path within machine learning repo
+	df = pd.read_csv('data/disconnects_sample_neural_network.csv')
 	data = df.as_matrix()
 
 	#random.seed(420)
