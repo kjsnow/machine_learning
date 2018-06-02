@@ -2,6 +2,8 @@ import numpy as np
 import pandas as pd
 import os
 
+from sklearn.utils import shuffle
+
 # def get_data():
 # 	df = pd.read_csv('~/Documents/Classes/udemy_deep_learning/sample_disconnects.csv', header=None)
 # 	#df = df.as_matrix()
@@ -44,6 +46,8 @@ def get_data():
 	#random.seed(420)
 	#sample = np.random.choice(data, 1000)
 	sample = data[np.random.choice(data.shape[0], 10000, replace=False), :]
+
+	sample = shuffle(sample)
 
 	X = sample[:, :-1]
 	Y = sample[:, -1]

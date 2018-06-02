@@ -34,6 +34,7 @@ M = 10
 D = X.shape[1]
 K = len(set(Y))
 
+
 # train on the last 100 records, test the rest
 Xtrain = X[:-2000]
 Ytrain = Y[:-2000]

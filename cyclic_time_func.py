@@ -4,7 +4,7 @@ import numpy as np
 
 # function to read in sample data
 def get_data():
-	data = pd.read_csv('data/sample_disconnects.csv', header=None)
+	data = pd.read_csv('data/sample_disconnects_20180528_20180601.csv', header=None)
 	data.columns = ['vzw_ind', 'att_ind', 'spr_ind', 'tmo_ind', 'met_ind', 'churn_date', 'sec_from_midnight', 'night_ind', 'five_min_ind', 'noncomp_ind']
 	return data
 
@@ -83,7 +83,7 @@ df_disconnects = add_color(df_disconnects)
 print df_disconnects.head()
 
 # adjust size of plot markers
-marker_size = 1
+marker_size = 10
 
 # base - no color (works)
 #df.plot.scatter('sin_time', 'cos_time', marker_size).set_aspect('equal')
