@@ -57,17 +57,17 @@ def get_data():
 
 	#X[:,1] = (X[:,1] - X[:,1].mean()) / X[:,1].std()
 	#X[:,2] = (X[:,2] - X[:,2].mean()) / X[:,2].std()
-	X[:,3] = (X[:,3] - X[:,3].mean()) / X[:,3].std()
-	X[:,4] = (X[:,4] - X[:,4].mean()) / X[:,4].std()
+	X[:,7] = (X[:,7] - X[:,7].mean()) / X[:,7].std()
+	X[:,8] = (X[:,8] - X[:,8].mean()) / X[:,8].std()
 
-	N, D = X.shape
-	X2 = np.zeros((N, D+4))
-	X2[:,0:(D-1)] = X[:,0:(D-1)]
+	# N, D = X.shape
+	# X2 = np.zeros((N, D+4))
+	# X2[:,0:(D-1)] = X[:,0:(D-1)]
 
-	# one hot encoding
-	for n in xrange(N):
-		t = int(X[n,0])
-		X2[n,t+D-1] = 1
+	# # one hot encoding
+	# for n in xrange(N):
+	# 	t = int(X[n,0])
+	# 	X2[n,t+D-1] = 1
 
 	# delete first column now
 	#X2 = X2[:,1:]
@@ -77,7 +77,7 @@ def get_data():
 	#assert(np.abs(X2[:,-5:] - Z).sum() < 10e-10)
 
 
-	return X2, Y
+	return X, Y
 
 def get_binary_data():
 	X, Y = get_data()
