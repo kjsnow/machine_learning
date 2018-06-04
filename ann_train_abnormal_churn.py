@@ -1,18 +1,20 @@
 import numpy as np
+import numpy.lib.recfunctions as nlr
 import matplotlib.pyplot as plt
+import datetime
 
 from sklearn.utils import shuffle
 from process_abnormal_churn import get_data
 
 # Best results so far:
-# M = 5
-# train on last 2000
-# test on first 8k (10k sample)
+# M = 10
+# train on first 8k
+# test on last 2k (10k sample)
 # tanh/softmax (try relu)
-# learning rate = .0001
+# learning rate = .00001
 # 1000 iterations
-# Final train classification rate = .9385
-# Final test classification rate = .946
+# Final train classification rate = .966
+# Final test classification rate = .971
 
 
 
@@ -26,7 +28,7 @@ def y2indicator(y, K):
 X, Y = get_data()
 
 
-X, Y = shuffle(X, Y)
+X, Y = shuffle(X, Y, random_state=0)
 Y = Y.astype(np.int32)
 
 
@@ -90,11 +92,32 @@ for i in xrange(1000):
 	if i % 100 == 0:
 		print i, ctrain, ctest
 
-print "Final train classification_rate:", classification_rate(Ytrain, predict(pYtrain))
-print "Final test classification_rate:", classification_rate(Ytest, predict(pYtest))
+train_predict_results = predict(pYtrain)
+test_predict_results = predict(pYtest)
+print "Final train classification_rate:", classification_rate(Ytrain, train_predict_results)
+print "Final test classification_rate:", classification_rate(Ytest, test_predict_results)
 
 legend1, = plt.plot(train_costs, label='train cost')
 legend2, = plt.plot(test_costs, label='test_costs')
 plt.legend([legend1, legend2])
 plt.show() 
+
+print Xtrain.view()
+print Xtest.view()
+
+print Xtrain.shape
+print Ytrain.shape
+print train_predict_results.shape
+
+# Save results
+train_results = np.column_stack([Xtrain, Ytrain, train_predict_results])
+test_results = np.column_stack([Xtest, Ytest, test_predict_results])
+
+print train_results.view()
+print test_results.view()
+print train_results.shape
+print test_results.shape
+
+np.savetxt('data/results/train_results' + datetime.date.today().strftime('%Y%m%d') + '.csv', train_results, delimiter=',')
+np.savetxt('data/results/test_results' + datetime.date.today().strftime('%Y%m%d') + '.csv', test_results, delimiter=',')
 
