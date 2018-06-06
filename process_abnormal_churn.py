@@ -55,6 +55,7 @@ def get_data():
 	#X = data[:, :-1]
 	#Y = data[:, -1]
 
+	# Normalize numeric columns
 	#X[:,1] = (X[:,1] - X[:,1].mean()) / X[:,1].std()
 	#X[:,2] = (X[:,2] - X[:,2].mean()) / X[:,2].std()
 	X[:,7] = (X[:,7] - X[:,7].mean()) / X[:,7].std()
@@ -64,7 +65,7 @@ def get_data():
 	# X2 = np.zeros((N, D+4))
 	# X2[:,0:(D-1)] = X[:,0:(D-1)]
 
-	# # one hot encoding
+	# # one hot encoding if necessary
 	# for n in xrange(N):
 	# 	t = int(X[n,0])
 	# 	X2[n,t+D-1] = 1
