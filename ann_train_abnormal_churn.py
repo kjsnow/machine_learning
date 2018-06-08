@@ -102,22 +102,22 @@ legend2, = plt.plot(test_costs, label='test_costs')
 plt.legend([legend1, legend2])
 plt.show() 
 
-print Xtrain.view()
-print Xtest.view()
+# print Xtrain.view()
+# print Xtest.view()
 
-print Xtrain.shape
-print Ytrain.shape
-print train_predict_results.shape
+# print Xtrain.shape
+# print Ytrain.shape
+# print train_predict_results.shape
 
-# Save results
-train_results = np.column_stack([Xtrain, Ytrain, train_predict_results])
-test_results = np.column_stack([Xtest, Ytest, test_predict_results])
+# # Save results
+# train_results = np.column_stack([Xtrain, Ytrain, train_predict_results])
+# test_results = np.column_stack([Xtest, Ytest, test_predict_results])
 
-print train_results.view()
-print test_results.view()
-print train_results.shape
-print test_results.shape
+# print train_results.view()
+# print test_results.view()
+# print train_results.shape
+# print test_results.shape
 
-np.savetxt('data/results/train_results' + datetime.date.today().strftime('%Y%m%d') + '.csv', train_results, delimiter=',')
-np.savetxt('data/results/test_results' + datetime.date.today().strftime('%Y%m%d') + '.csv', test_results, delimiter=',')
+# np.savetxt('data/results/train_results' + datetime.date.today().strftime('%Y%m%d') + '.csv', train_results, delimiter=',')
+# np.savetxt('data/results/test_results' + datetime.date.today().strftime('%Y%m%d') + '.csv', test_results, delimiter=',')
 
