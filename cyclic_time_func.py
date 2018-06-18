@@ -22,6 +22,7 @@ def rand_times(n):
 
 # read data
 df = get_data()
+
 # sort data
 df = df.sort_values('sec_from_midnight').reset_index(drop=True)
 
