@@ -1,0 +1,654 @@
+TN,TN_Movement_Type,CHURN_DATE,CHURN_TYPE,CHURN_LOSING_SP,CHURN_WINNING_SP,TRANS_LAG,NONCOMPETITIVE_IND,predicted,notes
+7573380938,F,7/12/2018 0:30:01,F DSV,1,4,556,0,1,"actually bad, model correctly identified"
+7635167784,F,7/12/2018 0:30:01,F DSV,1,4,134,0,1,"actually bad, model correctly identified"
+7042414406,F,7/12/2018 0:30:02,F DSV,1,4,196,0,1,"actually bad, model correctly identified"
+7043458092,F,7/12/2018 0:30:03,F DSV,1,4,200,0,1,"actually bad, model correctly identified"
+5745751260,F,7/12/2018 0:45:01,F DSV,1,4,560,0,1,"actually bad, model correctly identified"
+3139035133,F,7/12/2018 1:00:01,F DSV,1,4,541,0,1,"actually bad, model correctly identified"
+3175603026,F,7/12/2018 1:20:04,F DSV,1,4,480,0,1,"actually bad, model correctly identified"
+2162551204,F,7/12/2018 1:20:04,F DSV,1,4,392,0,1,"actually bad, model correctly identified"
+4146282196,F,7/12/2018 1:40:01,F DSV,1,4,562,0,1,"actually bad, model correctly identified"
+2318729106,E,7/12/2018 2:35:01,E DSV,1,NULL,959,5,0,model missed
+5419106638,E,7/12/2018 3:00:03,E DSV,1,NULL,105,5,0,model missed
+7062128448,E,7/12/2018 3:00:11,E DSV,1,NULL,180,5,0,model missed
+7403393782,E,7/12/2018 3:00:13,E DSV,1,NULL,1428,5,0,model missed
+7654045813,E,7/12/2018 3:00:14,E DSV,1,NULL,844,5,0,model missed
+2163335798,E,7/12/2018 3:05:01,E DSV,1,NULL,377,5,0,model missed
+3097161533,E,7/12/2018 3:05:01,E DSV,1,NULL,422,5,0,model missed
+7863019989,F,7/12/2018 3:20:01,F DSV,1,4,368,0,1,"actually bad, model correctly identified"
+8127504484,E,7/12/2018 3:30:01,E DSV,1,NULL,3220,5,0,model missed
+9378294993,F,7/12/2018 3:50:01,F DSV,1,4,2013,0,1,"actually bad, model correctly identified"
+8122235359,F,7/12/2018 4:00:01,F DSV,1,4,873,0,1,"actually bad, model correctly identified"
+8122926825,F,7/12/2018 4:10:01,F DSV,1,4,653,0,1,"actually bad, model correctly identified"
+9107059848,F,7/12/2018 4:15:01,F DSV,1,4,848,0,1,"actually bad, model correctly identified"
+9859560486,F,7/12/2018 4:25:01,F DSV,1,4,364,0,1,"actually bad, model correctly identified"
+9312566195,E,7/12/2018 17:55:00,E DSV,1,NULL,179,5,0,model missed
+9016918846,E,7/12/2018 17:55:00,E DSV,1,NULL,353,5,0,model missed
+5183379103,E,7/12/2018 20:00:59,E DSV,1,NULL,2976,5,0,model missed
+5183508474,E,7/12/2018 20:00:59,E DSV,1,NULL,1988,5,0,model missed
+5183895803,E,7/12/2018 20:00:59,E DSV,1,NULL,900,5,0,model missed
+5183930328,E,7/12/2018 20:00:59,E DSV,1,NULL,2683,5,0,model missed
+5184953751,E,7/12/2018 20:00:59,E DSV,1,NULL,1835,5,0,model missed
+5188663970,E,7/12/2018 20:00:59,E DSV,1,NULL,588,5,0,model missed
+5188829968,E,7/12/2018 20:00:59,E DSV,1,NULL,445,5,0,model missed
+5188922773,E,7/12/2018 20:00:59,E DSV,1,NULL,3106,5,0,model missed
+5185426217,E,7/12/2018 20:00:59,E DSV,1,NULL,1554,5,0,model missed
+3047196330,D,7/12/2018 20:01:27,D DSV,1,5,5,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+6034341334,F,7/12/2018 20:01:44,F DSV,1,1649,1415,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+3158263219,F,7/12/2018 20:02:24,F DSV,1,3135,1567,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+3158263305,F,7/12/2018 20:02:24,F DSV,1,3135,1674,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+2486279509,D,7/12/2018 20:02:28,D DSV,1,1782,2471,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+2489793622,D,7/12/2018 20:02:28,D DSV,1,6,230,0,1,"actually bad, model correctly identified"
+2182333662,D,7/12/2018 20:02:49,D DSV,1,858,3238,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+8168867495,F,7/12/2018 20:02:54,F DSV,1,1009,430,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+7654504041,F,7/12/2018 20:02:54,F DSV,1,1009,840,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+2076555624,F,7/12/2018 20:04:30,F DSV,1,1649,5128,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5858512675,F,7/12/2018 20:04:54,F DSV,1,8,2152,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+3202563852,F,7/12/2018 20:05:09,F DSV,1,2754,1451,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+4136423303,F,7/12/2018 20:05:14,F DSV,1,1009,1226,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+2074744499,F,7/12/2018 20:05:19,F DSV,1,1649,3436,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+7015242610,F,7/12/2018 20:05:24,F DSV,1,1968,1479,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+4198735344,F,7/12/2018 20:05:45,F DSV,1,674,2320,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+6034885390,F,7/12/2018 20:06:19,F DSV,1,1009,1485,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+6063832537,F,7/12/2018 20:06:19,F DSV,1,596,819,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5132339429,F,7/12/2018 20:06:20,F DSV,1,911,1831,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5132480615,F,7/12/2018 20:06:40,F DSV,1,911,77,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+8149326434,F,7/12/2018 20:06:58,F DSV,1,5,5,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+9202556161,F,7/12/2018 20:07:34,F DSV,1,812,668,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+4028245575,F,7/12/2018 20:08:35,F DSV,1,5134,2031,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+6208450333,F,7/12/2018 20:08:40,F DSV,1,2416,3438,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+3083841959,D,7/12/2018 20:08:44,D DSV,1,858,53,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+7152076291,F,7/12/2018 20:08:49,F DSV,1,873,1282,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+7128523227,F,7/12/2018 20:08:50,F DSV,1,5134,2446,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+7123327077,D,7/12/2018 20:08:54,D DSV,1,858,2515,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+6209047110,F,7/12/2018 20:08:54,F DSV,1,3146,1409,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+6203768226,F,7/12/2018 20:08:54,F DSV,1,1649,2976,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+9378441013,E,7/12/2018 20:10:08,E DSV,1,NULL,1410,5,0,model missed
+8153422460,E,7/12/2018 20:10:58,E DSV,1,NULL,3319,5,0,model missed
+9074446781,F,7/12/2018 20:11:40,F DSV,1,1821,474,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+9073540318,D,7/12/2018 20:11:40,D DSV,1,2706,589,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5753994622,F,7/12/2018 20:11:40,F DSV,1,2528,317,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+9283133565,F,7/12/2018 20:11:49,F DSV,1,13,353,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5418837230,D,7/12/2018 20:11:55,D DSV,1,858,1290,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+2087903046,F,7/12/2018 20:12:00,F DSV,1,2229,1823,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+8084500864,D,7/12/2018 20:12:21,D DSV,1,4,1550,0,1,"actually bad, model correctly identified"
+9286340591,D,7/12/2018 20:12:25,D DSV,1,858,3856,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+4804733288,D,7/12/2018 20:12:34,D DSV,1,858,1901,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5758351520,D,7/12/2018 20:13:20,D DSV,1,858,3579,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5108485127,F,7/12/2018 20:13:20,F DSV,1,398,2473,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+3039538175,F,7/12/2018 20:13:35,F DSV,1,1009,1235,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+3037551511,D,7/12/2018 20:13:35,D DSV,1,858,5286,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+7202000909,D,7/12/2018 20:13:35,D DSV,1,858,3242,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+7202834610,D,7/12/2018 20:13:40,D DSV,1,858,5173,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+7208707690,D,7/12/2018 20:13:40,D DSV,1,858,3426,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+9282059538,F,7/12/2018 20:13:40,F DSV,1,13,64,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+2088270548,F,7/12/2018 20:13:45,F DSV,1,2229,2892,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+2086849494,D,7/12/2018 20:13:45,D DSV,1,858,2905,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+4069735904,F,7/12/2018 20:13:54,F DSV,1,2837,1967,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+3077030179,F,7/12/2018 20:14:09,F DSV,1,5744,988,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+3077052184,F,7/12/2018 20:14:09,F DSV,1,5744,1625,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+2097423171,F,7/12/2018 20:14:19,F DSV,1,4039,1281,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5629497931,D,7/12/2018 20:14:40,D DSV,1,1782,2972,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5629883447,D,7/12/2018 20:14:40,D DSV,1,1782,1135,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5626929015,D,7/12/2018 20:14:40,D DSV,1,1782,2011,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+9093384604,D,7/12/2018 20:14:44,D DSV,1,1782,1830,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+8053750243,D,7/12/2018 20:14:50,D DSV,1,1782,870,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+8059881909,D,7/12/2018 20:14:50,D DSV,1,1782,1129,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5419972430,D,7/12/2018 20:14:54,D DSV,1,858,2235,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+3103708082,D,7/12/2018 20:14:55,D DSV,1,1782,1173,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+3104718461,D,7/12/2018 20:14:55,D DSV,1,1782,2396,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+3105425089,D,7/12/2018 20:14:55,D DSV,1,1782,2029,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5038370006,F,7/12/2018 20:15:04,F DSV,1,2876,2045,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+3103067387,D,7/12/2018 20:15:14,D DSV,1,1782,3836,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+3107516118,F,7/12/2018 20:15:15,F DSV,1,5251,226,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+6263553578,D,7/12/2018 20:15:25,D DSV,1,1782,2095,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+7143893891,F,7/12/2018 20:15:34,F DSV,1,1170,2244,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5625964889,D,7/12/2018 20:15:35,D DSV,1,1782,1640,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+9093649040,D,7/12/2018 20:16:19,D DSV,1,1782,2606,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+7756220662,F,7/12/2018 20:16:40,F DSV,1,873,2639,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+7696925882,F,7/12/2018 20:16:50,F DSV,1,9,218,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+6017665103,F,7/12/2018 20:16:54,F DSV,1,9,980,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5806512785,F,7/12/2018 20:16:55,F DSV,1,3459,1993,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+2568460875,F,7/12/2018 20:17:39,F DSV,1,12,1812,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+2568464897,F,7/12/2018 20:17:40,F DSV,1,12,1812,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+2568460244,F,7/12/2018 20:17:40,F DSV,1,12,1812,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+8438154377,F,7/12/2018 20:18:10,F DSV,1,2033,2522,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+8436022170,D,7/12/2018 20:18:25,D DSV,1,4,2066,0,1,"actually bad, model correctly identified"
+3364570965,D,7/12/2018 20:19:55,D DSV,1,4,5067,0,1,"actually bad, model correctly identified"
+8286403138,F,7/12/2018 20:20:10,F DSV,1,771,587,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+6012138919,F,7/12/2018 20:20:50,F DSV,1,9,1316,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+6017201439,F,7/12/2018 20:20:50,F DSV,1,9,1316,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+8654980005,F,7/12/2018 20:21:00,F DSV,1,1009,2662,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+8032852955,F,7/12/2018 20:21:10,F DSV,1,1067,1824,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+8289801073,D,7/12/2018 20:21:14,D DSV,1,5,29,0,1,"actually bad, model correctly identified"
+9039864462,D,7/12/2018 20:21:21,D DSV,1,1782,3293,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+2513314317,F,7/12/2018 20:21:30,F DSV,1,12,806,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+2395992422,F,7/12/2018 20:21:56,F DSV,1,1009,52,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+9035837926,D,7/12/2018 20:22:25,D DSV,1,1782,1054,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+9413652669,D,7/12/2018 20:23:05,D DSV,1,1782,1099,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+4236770840,D,7/12/2018 20:23:10,D DSV,1,4,4651,0,1,"actually bad, model correctly identified"
+4236777573,D,7/12/2018 20:23:10,D DSV,1,4,4651,0,1,"actually bad, model correctly identified"
+9414970737,D,7/12/2018 20:23:26,D DSV,1,1782,2664,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+9182913220,D,7/12/2018 20:23:46,D DSV,1,6,531,0,1,"actually bad, model correctly identified"
+3182437732,F,7/12/2018 20:23:48,F DSV,1,2,28,0,1,"actually bad, model correctly identified"
+9102640180,D,7/12/2018 20:24:00,D DSV,1,4,4145,0,1,"actually bad, model correctly identified"
+9102649098,D,7/12/2018 20:24:00,D DSV,1,4,3856,0,1,"actually bad, model correctly identified"
+6624189657,F,7/12/2018 20:24:00,F DSV,1,9,283,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+2294051251,F,7/12/2018 20:24:15,F DSV,1,2724,1513,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+3347260382,F,7/12/2018 20:24:25,F DSV,1,12,4550,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+6628719916,F,7/12/2018 20:24:31,F DSV,1,9,355,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+2567532114,F,7/12/2018 20:24:40,F DSV,1,636,1262,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+4788933629,F,7/12/2018 20:24:40,F DSV,1,1074,232,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5702182449,F,7/13/2018 0:30:01,F DSV,1,4,259,0,1,"actually bad, model correctly identified"
+6502670877,E,7/13/2018 0:34:57,E DSV,1,NULL,1226,5,0,model missed
+6502789733,E,7/13/2018 0:34:57,E DSV,1,NULL,1226,5,0,model missed
+6503929391,E,7/13/2018 0:34:57,E DSV,1,NULL,1226,5,0,model missed
+6503929423,E,7/13/2018 0:34:57,E DSV,1,NULL,1219,5,0,model missed
+6503929457,E,7/13/2018 0:34:57,E DSV,1,NULL,1226,5,0,model missed
+6503929502,E,7/13/2018 0:34:57,E DSV,1,NULL,1226,5,0,model missed
+4196128867,F,7/13/2018 0:45:01,F DSV,1,4,643,0,1,"actually bad, model correctly identified"
+6017910529,F,7/13/2018 1:15:01,F DSV,1,4,240,0,1,"actually bad, model correctly identified"
+7657493314,E,7/13/2018 1:20:02,E DSV,1,NULL,2116,5,0,model missed
+7405849047,E,7/13/2018 1:20:02,E DSV,1,NULL,239,5,0,model missed
+8287677997,F,7/13/2018 1:50:01,F DSV,1,4,517,0,1,"actually bad, model correctly identified"
+9195798565,F,7/13/2018 1:50:01,F DSV,1,4,505,0,1,"actually bad, model correctly identified"
+9842443086,F,7/13/2018 1:55:01,F DSV,1,4,208,0,1,"actually bad, model correctly identified"
+9287017338,E,7/13/2018 2:14:01,E DSV,1,NULL,3357,5,0,model missed
+7024437741,E,7/13/2018 2:50:06,E DSV,1,NULL,531,0,1,debateable
+7344895272,E,7/13/2018 3:10:01,E DSV,1,NULL,662,5,0,model missed
+7349452580,E,7/13/2018 3:15:01,E DSV,1,NULL,4371,5,0,model missed
+9103476550,E,7/13/2018 3:15:42,E DSV,1,NULL,1325,5,0,model missed
+2178282568,E,7/13/2018 5:10:01,E DSV,1,NULL,1642,5,0,model missed
+3175606537,F,7/13/2018 5:35:01,F DSV,1,4,227,0,1,"actually bad, model correctly identified"
+5059203617,F,7/13/2018 5:45:01,F DSV,1,4,NULL,0,1,"actually bad, model correctly identified"
+6783086319,F,7/13/2018 6:00:01,F DSV,1,4,1497,0,1,"actually bad, model correctly identified"
+4194641657,E,7/13/2018 6:10:01,E DSV,1,NULL,360,5,0,model missed
+2172812593,E,7/13/2018 6:10:01,E DSV,1,NULL,326,5,0,model missed
+6182078753,F,7/13/2018 6:20:04,F DSV,1,4,209,0,1,debateable
+7063154690,F,7/13/2018 6:30:01,F DSV,1,4,1466,0,1,"actually bad, model correctly identified"
+7082895242,F,7/13/2018 6:40:01,F DSV,1,4,357,0,1,"actually bad, model correctly identified"
+9063613680,E,7/13/2018 7:00:01,E DSV,1,NULL,499,5,0,model missed
+9202667158,E,7/13/2018 7:05:01,E DSV,1,NULL,1677,5,0,model missed
+9315292306,F,7/13/2018 7:20:01,F DSV,1,4,976,0,1,"actually bad, model correctly identified"
+8432308024,F,7/13/2018 7:30:01,F DSV,1,4,323,0,1,"actually bad, model correctly identified"
+8708455470,F,7/13/2018 8:00:02,F DSV,1,398,1708,0,1,"actually bad, model correctly identified"
+7139954471,F,7/13/2018 8:00:02,F DSV,1,398,2193,0,1,"actually bad, model correctly identified"
+8023493230,F,7/13/2018 8:00:03,F DSV,1,2,617,0,1,"actually bad, model correctly identified"
+2022254090,F,7/13/2018 8:00:03,F DSV,1,4940,3391,0,1,"actually bad, model correctly identified"
+9316251863,F,7/13/2018 8:00:03,F DSV,1,2,572,0,1,"actually bad, model correctly identified"
+4408341694,F,7/13/2018 8:00:36,F DSV,1,398,1719,0,1,"actually bad, model correctly identified"
+6185415248,F,7/13/2018 8:00:36,F DSV,1,2,1431,0,1,"actually bad, model correctly identified"
+5183787802,E,7/13/2018 20:01:35,E DSV,1,NULL,354,5,0,model missed
+5156123573,E,7/13/2018 20:01:44,E DSV,1,NULL,607,5,0,model missed
+2707052061,E,7/13/2018 20:01:55,E DSV,1,NULL,321,5,0,model missed
+6063829440,F,7/13/2018 20:02:24,F DSV,1,5134,1930,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+6034265493,D,7/13/2018 20:02:35,D DSV,1,1649,5147,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+6034265494,D,7/13/2018 20:02:35,D DSV,1,1649,5147,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5155765657,F,7/13/2018 20:02:55,F DSV,1,1782,1544,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+9206397358,F,7/13/2018 20:02:55,F DSV,1,812,791,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+7017757551,D,7/13/2018 20:02:59,D DSV,1,858,2651,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+8592829053,F,7/13/2018 20:03:35,F DSV,1,911,1901,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+6036426042,F,7/13/2018 20:03:35,F DSV,1,1649,710,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+4196746275,F,7/13/2018 20:03:35,F DSV,1,5134,5153,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+3099289385,F,7/13/2018 20:03:35,F DSV,1,1782,2102,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5185213807,F,7/13/2018 20:04:01,F DSV,1,5251,467,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+6084461559,D,7/13/2018 20:04:05,D DSV,1,4376,1415,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+3309532867,F,7/13/2018 20:05:39,F DSV,1,378,836,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+3302208464,F,7/13/2018 20:06:05,F DSV,1,1782,2682,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+6039262044,F,7/13/2018 20:06:05,F DSV,1,1649,1054,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+4194854690,F,7/13/2018 20:06:05,F DSV,1,1782,877,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+8286127543,F,7/13/2018 20:06:06,F DSV,1,5,16,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+4402865111,F,7/13/2018 20:06:20,F DSV,1,5134,1573,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+3128341697,F,7/13/2018 20:06:25,F DSV,1,8,121,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+2034682591,D,7/13/2018 20:07:00,D DSV,1,1782,1592,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+2077640074,F,7/13/2018 20:07:30,F DSV,1,1649,2684,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+4029443636,F,7/13/2018 20:07:55,F DSV,1,5134,1325,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+6014557355,F,7/13/2018 20:07:56,F DSV,1,9,289,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+4409858993,E,7/13/2018 20:08:00,E DSV,1,NULL,1708,5,0,model missed
+6084340081,E,7/13/2018 20:08:00,E DSV,1,NULL,1635,5,0,model missed
+6205463297,F,7/13/2018 20:08:11,F DSV,1,4139,3271,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+6203456831,F,7/13/2018 20:08:15,F DSV,1,4606,2606,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+3085321045,D,7/13/2018 20:08:20,D DSV,1,858,3993,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+4172353821,E,7/13/2018 20:08:21,E DSV,1,NULL,2167,5,0,model missed
+9074147533,F,7/13/2018 20:09:41,F DSV,1,1821,469,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+9075908770,D,7/13/2018 20:09:41,D DSV,1,1821,1270,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+8082753402,F,7/13/2018 20:10:11,F DSV,1,4770,318,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+8088374361,F,7/13/2018 20:10:11,F DSV,1,2050,318,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+8088374367,F,7/13/2018 20:10:11,F DSV,1,2050,318,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+6232662088,F,7/13/2018 20:10:31,F DSV,1,1170,2263,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+6239352174,D,7/13/2018 20:10:31,D DSV,1,858,396,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+4806327451,D,7/13/2018 20:10:31,D DSV,1,858,1815,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+4806321793,D,7/13/2018 20:10:41,D DSV,1,858,2850,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5099461693,F,7/13/2018 20:10:41,F DSV,1,1782,368,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+9708719013,D,7/13/2018 20:11:11,D DSV,1,858,3189,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+9282051872,F,7/13/2018 20:11:30,F DSV,1,13,219,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5054060199,F,7/13/2018 20:11:30,F DSV,1,13,941,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+8014562595,F,7/13/2018 20:11:40,F DSV,1,1727,233,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+3077054204,F,7/13/2018 20:11:45,F DSV,1,5744,1317,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5416887103,D,7/13/2018 20:11:46,D DSV,1,858,1835,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+9419606460,B,7/13/2018 20:11:51,B DSV,1,NULL,NULL,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+8188936461,D,7/13/2018 20:12:11,D DSV,1,1782,2124,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+7603210886,D,7/13/2018 20:12:15,D DSV,1,1782,925,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5037721583,D,7/13/2018 20:12:30,D DSV,1,858,2594,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+8054947360,D,7/13/2018 20:12:40,D DSV,1,1782,NULL,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+7609498510,D,7/13/2018 20:12:50,D DSV,1,1782,2668,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+2532881044,D,7/13/2018 20:13:15,D DSV,1,858,3299,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+6015546790,F,7/13/2018 20:13:45,F DSV,1,9,665,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+6015962738,F,7/13/2018 20:13:45,F DSV,1,9,2435,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+6014086411,F,7/13/2018 20:13:45,F DSV,1,9,2900,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5805211102,F,7/13/2018 20:13:51,F DSV,1,3459,1108,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+2565960207,D,7/13/2018 20:14:41,D DSV,1,12,1677,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+7278615500,D,7/13/2018 20:15:26,D DSV,1,1782,403,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+8649625088,F,7/13/2018 20:16:00,F DSV,1,1782,2615,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+8324870477,D,7/13/2018 20:16:31,D DSV,1,564,1766,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+7405446668,F,7/13/2018 20:16:36,F DSV,1,1782,53,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+2524223938,D,7/13/2018 20:16:41,D DSV,1,4,4334,0,1,"actually bad, model correctly identified"
+6154542112,F,7/13/2018 20:17:41,F DSV,1,1009,843,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+6157505449,F,7/13/2018 20:17:41,F DSV,1,1009,50,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+9412498456,F,7/13/2018 20:18:06,F DSV,1,1009,451,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+4792966076,F,7/13/2018 20:18:10,F DSV,1,1170,676,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+2523317558,D,7/13/2018 20:18:11,D DSV,1,858,1976,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5404570417,F,7/13/2018 20:18:41,F DSV,1,11,207,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+9413789880,F,7/13/2018 20:18:41,F DSV,1,1782,337,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+3617583933,D,7/13/2018 20:18:50,D DSV,1,1782,4558,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+9419188100,D,7/13/2018 20:18:56,D DSV,1,1782,2051,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+7316021127,F,7/13/2018 20:19:31,F DSV,1,6042,408,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+2293977387,F,7/13/2018 20:19:46,F DSV,1,4638,589,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+9208606469,F,7/13/2018 21:20:30,F DSV,1,5,18,0,1,model incorrectly removed
+7876971801,F,7/13/2018 23:07:01,F DSV,1,2,4022,0,1,"actually bad, model correctly identified"
+7876463634,D,7/13/2018 23:07:02,D DSV,1,2,1190,0,1,"actually bad, model correctly identified"
+7876693601,F,7/13/2018 23:07:02,F DSV,1,4,554,0,1,"actually bad, model correctly identified"
+7876775268,F,7/13/2018 23:07:02,F DSV,1,4,2526,0,1,"actually bad, model correctly identified"
+7874624016,F,7/13/2018 23:07:02,F DSV,1,4,1344,0,1,"actually bad, model correctly identified"
+7873602607,F,7/13/2018 23:07:02,F DSV,1,2,1003,0,1,"actually bad, model correctly identified"
+7873996982,F,7/13/2018 23:07:02,F DSV,1,2,1026,0,1,"actually bad, model correctly identified"
+7874002857,F,7/13/2018 23:07:02,F DSV,1,2,3145,0,1,"actually bad, model correctly identified"
+7879401096,F,7/13/2018 23:07:02,F DSV,1,4,973,0,1,"actually bad, model correctly identified"
+7874364497,F,7/13/2018 23:07:06,F DSV,1,2,303,0,1,"actually bad, model correctly identified"
+7874399435,F,7/13/2018 23:07:06,F DSV,1,2,1003,0,1,"actually bad, model correctly identified"
+7874445526,F,7/13/2018 23:07:06,F DSV,1,3354,167,0,1,"actually bad, model correctly identified"
+7875959983,F,7/13/2018 23:07:06,F DSV,1,4,1553,0,1,"actually bad, model correctly identified"
+7872975655,F,7/13/2018 23:07:06,F DSV,1,3354,345,0,1,"actually bad, model correctly identified"
+7879195788,F,7/13/2018 23:07:06,F DSV,1,3354,1758,0,1,"actually bad, model correctly identified"
+9045765547,B,7/12/2018 0:13:11,B DSV,2,NULL,NULL,0,1,"actually bad, model correctly identified"
+8162056400,B,7/12/2018 0:22:56,B DSV,2,NULL,NULL,0,1,"actually bad, model correctly identified"
+8702122039,B,7/12/2018 0:28:46,B DSV,2,NULL,NULL,0,1,"actually bad, model correctly identified"
+2489777776,B,7/12/2018 0:37:06,B DSV,2,NULL,290,0,1,"actually bad, model correctly identified"
+2253948042,B,7/12/2018 0:45:06,B DSV,2,NULL,NULL,0,1,"actually bad, model correctly identified"
+6163126375,B,7/12/2018 0:55:47,B DSV,2,NULL,NULL,0,1,"actually bad, model correctly identified"
+4802057902,B,7/12/2018 4:10:52,B DSV,2,NULL,2711,0,1,"actually bad, model correctly identified"
+7043761880,E,7/12/2018 4:11:35,E DSV,2,NULL,722,0,1,"actually bad, model correctly identified"
+3102546369,E,7/12/2018 6:04:45,E DSV,2,NULL,1059,0,1,"cut att timing off earlier that day, model could be correct"
+3104047437,E,7/12/2018 6:05:25,E DSV,2,NULL,1313,0,1,"cut att timing off earlier that day, model could be correct"
+3107606785,E,7/12/2018 6:07:41,E DSV,2,NULL,1513,0,1,"cut att timing off earlier that day, model could be correct"
+3232109846,E,7/12/2018 6:09:30,E DSV,2,NULL,1505,0,1,"cut att timing off earlier that day, model could be correct"
+3234675241,E,7/12/2018 6:12:10,E DSV,2,NULL,1064,0,1,"cut att timing off earlier that day, model could be correct"
+3235993294,E,7/12/2018 6:13:15,E DSV,2,NULL,183,0,1,"cut att timing off earlier that day, model could be correct"
+3236358320,E,7/12/2018 6:13:51,E DSV,2,NULL,901,0,1,"cut att timing off earlier that day, model could be correct"
+3154893830,E,7/12/2018 6:14:33,E DSV,2,NULL,780,0,1,"cut att timing off earlier that day, model could be correct"
+3236906231,E,7/12/2018 6:14:45,E DSV,2,NULL,328,0,1,"cut att timing off earlier that day, model could be correct"
+3238397923,E,7/12/2018 6:15:06,E DSV,2,NULL,727,0,1,"cut att timing off earlier that day, model could be correct"
+3238881066,E,7/12/2018 6:15:06,E DSV,2,NULL,1885,0,1,"cut att timing off earlier that day, model could be correct"
+4242003730,E,7/12/2018 6:15:30,E DSV,2,NULL,2746,0,1,"cut att timing off earlier that day, model could be correct"
+4242043224,E,7/12/2018 6:15:30,E DSV,2,NULL,165,0,1,"cut att timing off earlier that day, model could be correct"
+4242878792,E,7/12/2018 6:15:41,E DSV,2,NULL,158,0,1,"cut att timing off earlier that day, model could be correct"
+4242878800,E,7/12/2018 6:15:41,E DSV,2,NULL,158,0,1,"cut att timing off earlier that day, model could be correct"
+3158842012,E,7/12/2018 6:19:44,E DSV,2,NULL,780,0,1,"cut att timing off earlier that day, model could be correct"
+5624851800,E,7/12/2018 6:20:40,E DSV,2,NULL,270,0,1,"cut att timing off earlier that day, model could be correct"
+3152541638,E,7/12/2018 6:21:49,E DSV,2,NULL,780,0,1,"cut att timing off earlier that day, model could be correct"
+5629220306,E,7/12/2018 6:22:05,E DSV,2,NULL,3117,0,1,"cut att timing off earlier that day, model could be correct"
+4178408256,E,7/12/2018 6:22:08,E DSV,2,NULL,829,0,1,"cut att timing off earlier that day, model could be correct"
+6192072139,E,7/12/2018 6:22:26,E DSV,2,NULL,376,0,1,"cut att timing off earlier that day, model could be correct"
+6192656109,E,7/12/2018 6:23:10,E DSV,2,NULL,274,0,1,"cut att timing off earlier that day, model could be correct"
+6194012230,E,7/12/2018 6:24:45,E DSV,2,NULL,2379,0,1,"cut att timing off earlier that day, model could be correct"
+6194503187,E,7/12/2018 6:24:55,E DSV,2,NULL,479,0,1,"cut att timing off earlier that day, model could be correct"
+6194908856,E,7/12/2018 6:25:15,E DSV,2,NULL,468,0,1,"cut att timing off earlier that day, model could be correct"
+6195192529,E,7/12/2018 6:25:25,E DSV,2,NULL,1630,0,1,"cut att timing off earlier that day, model could be correct"
+6195193743,E,7/12/2018 6:25:25,E DSV,2,NULL,1630,0,1,"cut att timing off earlier that day, model could be correct"
+6195497480,E,7/12/2018 6:25:40,E DSV,2,NULL,576,0,1,"cut att timing off earlier that day, model could be correct"
+6195896122,E,7/12/2018 6:25:55,E DSV,2,NULL,2038,0,1,"cut att timing off earlier that day, model could be correct"
+6196435255,E,7/12/2018 6:26:30,E DSV,2,NULL,209,0,1,"cut att timing off earlier that day, model could be correct"
+6198435634,E,7/12/2018 6:27:25,E DSV,2,NULL,1844,0,1,"cut att timing off earlier that day, model could be correct"
+6198437798,E,7/12/2018 6:27:30,E DSV,2,NULL,2556,0,1,"cut att timing off earlier that day, model could be correct"
+6263382381,E,7/12/2018 6:29:15,E DSV,2,NULL,206,0,1,"cut att timing off earlier that day, model could be correct"
+6263454239,E,7/12/2018 6:29:15,E DSV,2,NULL,945,0,1,"cut att timing off earlier that day, model could be correct"
+6269566208,E,7/12/2018 6:31:31,E DSV,2,NULL,499,0,1,"cut att timing off earlier that day, model could be correct"
+6572546197,E,7/12/2018 6:31:45,E DSV,2,NULL,65,0,1,"cut att timing off earlier that day, model could be correct"
+6572546957,E,7/12/2018 6:31:45,E DSV,2,NULL,65,0,1,"cut att timing off earlier that day, model could be correct"
+6614489221,E,7/12/2018 6:33:21,E DSV,2,NULL,159,0,1,"cut att timing off earlier that day, model could be correct"
+6614741275,E,7/12/2018 6:33:25,E DSV,2,NULL,159,0,1,"cut att timing off earlier that day, model could be correct"
+6614773716,E,7/12/2018 6:33:25,E DSV,2,NULL,894,0,1,"cut att timing off earlier that day, model could be correct"
+6615784169,E,7/12/2018 6:33:55,E DSV,2,NULL,565,0,1,"cut att timing off earlier that day, model could be correct"
+6617185373,E,7/12/2018 6:34:15,E DSV,2,NULL,541,0,1,"cut att timing off earlier that day, model could be correct"
+6618770479,E,7/12/2018 6:34:20,E DSV,2,NULL,150,0,1,"cut att timing off earlier that day, model could be correct"
+7024239796,E,7/12/2018 6:36:20,E DSV,2,NULL,837,0,1,"cut att timing off earlier that day, model could be correct"
+7024300156,E,7/12/2018 6:36:26,E DSV,2,NULL,1503,0,1,"cut att timing off earlier that day, model could be correct"
+7025784971,E,7/12/2018 6:37:15,E DSV,2,NULL,837,0,1,"cut att timing off earlier that day, model could be correct"
+7029724964,E,7/12/2018 6:38:45,E DSV,2,NULL,194,0,1,"cut att timing off earlier that day, model could be correct"
+7142765456,E,7/12/2018 6:40:40,E DSV,2,NULL,1045,0,1,"cut att timing off earlier that day, model could be correct"
+7143499687,E,7/12/2018 6:41:06,E DSV,2,NULL,1486,0,1,"cut att timing off earlier that day, model could be correct"
+7146810855,E,7/12/2018 6:41:45,E DSV,2,NULL,1399,0,1,"cut att timing off earlier that day, model could be correct"
+7147278721,E,7/12/2018 6:41:50,E DSV,2,NULL,1627,0,1,"cut att timing off earlier that day, model could be correct"
+7148227519,E,7/12/2018 6:42:06,E DSV,2,NULL,820,0,1,"cut att timing off earlier that day, model could be correct"
+7148242016,E,7/12/2018 6:42:06,E DSV,2,NULL,320,0,1,"cut att timing off earlier that day, model could be correct"
+7209384872,E,7/12/2018 6:42:20,E DSV,2,NULL,1084,0,1,"cut att timing off earlier that day, model could be correct"
+7602170555,E,7/12/2018 6:44:10,E DSV,2,NULL,1238,0,1,"cut att timing off earlier that day, model could be correct"
+7602645336,E,7/12/2018 6:44:20,E DSV,2,NULL,357,0,1,"cut att timing off earlier that day, model could be correct"
+7602708527,E,7/12/2018 6:44:31,E DSV,2,NULL,489,0,1,"cut att timing off earlier that day, model could be correct"
+7605439333,E,7/12/2018 6:45:15,E DSV,2,NULL,412,0,1,"cut att timing off earlier that day, model could be correct"
+7608406706,E,7/12/2018 6:46:11,E DSV,2,NULL,108,0,1,"cut att timing off earlier that day, model could be correct"
+7608998573,E,7/12/2018 6:46:20,E DSV,2,NULL,896,0,1,"cut att timing off earlier that day, model could be correct"
+7609020337,E,7/12/2018 6:46:20,E DSV,2,NULL,793,0,1,"cut att timing off earlier that day, model could be correct"
+8053681628,E,7/12/2018 6:47:10,E DSV,2,NULL,154,0,1,"cut att timing off earlier that day, model could be correct"
+8056801008,E,7/12/2018 6:48:06,E DSV,2,NULL,2980,0,1,"cut att timing off earlier that day, model could be correct"
+8057057238,E,7/12/2018 6:48:11,E DSV,2,NULL,591,0,1,"cut att timing off earlier that day, model could be correct"
+8057468234,E,7/12/2018 6:48:20,E DSV,2,NULL,1026,0,1,"cut att timing off earlier that day, model could be correct"
+8182765454,E,7/12/2018 6:49:16,E DSV,2,NULL,1562,0,1,"cut att timing off earlier that day, model could be correct"
+8183217935,E,7/12/2018 6:49:30,E DSV,2,NULL,273,0,1,"cut att timing off earlier that day, model could be correct"
+8183445245,E,7/12/2018 6:49:36,E DSV,2,NULL,1305,0,1,"cut att timing off earlier that day, model could be correct"
+8184926447,E,7/12/2018 6:50:21,E DSV,2,NULL,516,0,1,"cut att timing off earlier that day, model could be correct"
+8186680660,E,7/12/2018 6:50:51,E DSV,2,NULL,1853,0,1,"cut att timing off earlier that day, model could be correct"
+8189132567,E,7/12/2018 6:51:21,E DSV,2,NULL,3771,0,1,"cut att timing off earlier that day, model could be correct"
+8189165974,E,7/12/2018 6:51:21,E DSV,2,NULL,2253,0,1,"cut att timing off earlier that day, model could be correct"
+8189419407,E,7/12/2018 6:51:25,E DSV,2,NULL,627,0,1,"cut att timing off earlier that day, model could be correct"
+8503468952,E,7/12/2018 6:51:36,E DSV,2,NULL,2371,0,1,"cut att timing off earlier that day, model could be correct"
+8584057065,E,7/12/2018 6:52:16,E DSV,2,NULL,304,0,1,"cut att timing off earlier that day, model could be correct"
+9092725268,E,7/12/2018 6:52:56,E DSV,2,NULL,1477,0,1,"cut att timing off earlier that day, model could be correct"
+9093053766,E,7/12/2018 6:53:06,E DSV,2,NULL,2124,0,1,"cut att timing off earlier that day, model could be correct"
+9093332913,E,7/12/2018 6:53:16,E DSV,2,NULL,67,0,1,"cut att timing off earlier that day, model could be correct"
+9095650783,E,7/12/2018 6:54:01,E DSV,2,NULL,940,0,1,"cut att timing off earlier that day, model could be correct"
+9096476248,E,7/12/2018 6:54:16,E DSV,2,NULL,543,0,1,"cut att timing off earlier that day, model could be correct"
+9096878240,E,7/12/2018 6:54:31,E DSV,2,NULL,305,0,1,"cut att timing off earlier that day, model could be correct"
+9097759407,E,7/12/2018 6:55:01,E DSV,2,NULL,160,0,1,"cut att timing off earlier that day, model could be correct"
+9099383572,E,7/12/2018 6:55:21,E DSV,2,NULL,636,0,1,"cut att timing off earlier that day, model could be correct"
+9099657195,E,7/12/2018 6:55:21,E DSV,2,NULL,100,0,1,"cut att timing off earlier that day, model could be correct"
+9257276449,E,7/12/2018 6:55:26,E DSV,2,NULL,857,0,1,"cut att timing off earlier that day, model could be correct"
+9494004440,E,7/12/2018 6:56:31,E DSV,2,NULL,2905,0,1,"cut att timing off earlier that day, model could be correct"
+9496104342,E,7/12/2018 6:56:51,E DSV,2,NULL,914,0,1,"cut att timing off earlier that day, model could be correct"
+9512408606,E,7/12/2018 6:57:26,E DSV,2,NULL,823,0,1,"cut att timing off earlier that day, model could be correct"
+9512777604,E,7/12/2018 6:57:36,E DSV,2,NULL,1807,0,1,"cut att timing off earlier that day, model could be correct"
+9513865376,E,7/12/2018 6:58:16,E DSV,2,NULL,1378,0,1,"cut att timing off earlier that day, model could be correct"
+9514156412,E,7/12/2018 6:58:26,E DSV,2,NULL,2287,0,1,"cut att timing off earlier that day, model could be correct"
+9515523041,E,7/12/2018 6:59:11,E DSV,2,NULL,1114,0,1,"cut att timing off earlier that day, model could be correct"
+9516573900,E,7/12/2018 6:59:16,E DSV,2,NULL,1803,0,1,"cut att timing off earlier that day, model could be correct"
+9517322756,E,7/12/2018 6:59:20,E DSV,2,NULL,165,0,1,"cut att timing off earlier that day, model could be correct"
+9518348241,E,7/12/2018 6:59:36,E DSV,2,NULL,160,0,1,"cut att timing off earlier that day, model could be correct"
+9518587514,E,7/12/2018 6:59:36,E DSV,2,NULL,4367,0,1,"cut att timing off earlier that day, model could be correct"
+8123423986,F,7/12/2018 7:00:19,F DSV,2,398,20,0,1,"cut att timing off earlier that day, model could be correct"
+5402200133,E,7/12/2018 7:22:04,E DSV,2,NULL,3450,0,1,"cut att timing off earlier that day, model could be correct"
+9108504006,E,7/12/2018 7:30:04,E DSV,2,NULL,525,0,1,"cut att timing off earlier that day, model could be correct"
+9106351560,E,7/12/2018 7:30:04,E DSV,2,NULL,525,0,1,"cut att timing off earlier that day, model could be correct"
+8034865015,E,7/12/2018 7:36:04,E DSV,2,NULL,4266,0,1,"cut att timing off earlier that day, model could be correct"
+9372840069,E,7/12/2018 7:54:04,E DSV,2,NULL,1706,0,1,"cut att timing off earlier that day, model could be correct"
+9035778043,F,7/12/2018 8:00:02,F DSV,2,398,4,0,1,"cut att timing off earlier that day, model could be correct"
+8015671519,F,7/12/2018 8:00:03,F DSV,2,858,10,0,1,"cut att timing off earlier that day, model could be correct"
+3178618330,F,7/12/2018 8:00:22,F DSV,2,398,941,0,1,"cut att timing off earlier that day, model could be correct"
+7742809181,F,7/12/2018 8:09:05,F DSV,2,1,1115,0,1,"cut att timing off earlier that day, model could be correct"
+7374846312,E,7/12/2018 8:09:55,E DSV,2,NULL,158,0,1,"cut att timing off earlier that day, model could be correct"
+6314085722,E,7/12/2018 8:09:55,E DSV,2,NULL,1500,0,1,"cut att timing off earlier that day, model could be correct"
+6314822526,E,7/12/2018 8:14:55,E DSV,2,NULL,1500,0,1,"cut att timing off earlier that day, model could be correct"
+7313077821,F,7/12/2018 8:20:06,F DSV,2,1,739,0,1,"cut att timing off earlier that day, model could be correct"
+7326875528,F,7/12/2018 8:21:06,F DSV,2,1,3912,0,1,"cut att timing off earlier that day, model could be correct"
+9084472491,F,7/12/2018 8:27:25,F DSV,2,1,2935,0,1,"cut att timing off earlier that day, model could be correct"
+8125268715,F,7/12/2018 8:29:09,F DSV,2,398,15,0,1,"cut att timing off earlier that day, model could be correct"
+3057969193,E,7/12/2018 8:32:22,E DSV,2,NULL,1058,0,1,"cut att timing off earlier that day, model could be correct"
+7657493568,B,7/12/2018 8:33:14,B DSV,2,NULL,1321,0,1,"cut att timing off earlier that day, model could be correct"
+3052165402,E,7/12/2018 8:35:06,E DSV,2,NULL,1086,0,1,"cut att timing off earlier that day, model could be correct"
+8138337339,F,7/12/2018 8:37:06,F DSV,2,1,2490,0,1,"cut att timing off earlier that day, model could be correct"
+4232975066,F,7/12/2018 8:39:06,F DSV,2,1,3,0,1,"cut att timing off earlier that day, model could be correct"
+8027794374,F,7/12/2018 8:42:06,F DSV,2,1,2609,0,1,"cut att timing off earlier that day, model could be correct"
+2162561214,E,7/12/2018 8:45:06,E DSV,2,NULL,828,0,1,"cut att timing off earlier that day, model could be correct"
+4134786028,F,7/12/2018 8:48:06,F DSV,2,1,1083,0,1,"cut att timing off earlier that day, model could be correct"
+7246818556,F,7/12/2018 8:52:06,F DSV,2,1,532,0,1,"cut att timing off earlier that day, model could be correct"
+9716007674,F,7/12/2018 21:02:08,F DSV,2,1,750,0,1,model incorrectly removed
+9286403693,F,7/12/2018 21:03:07,F DSV,2,1,475,0,1,model incorrectly removed
+2183494876,F,7/12/2018 21:03:37,F DSV,2,1,207,0,1,model incorrectly removed
+5126530660,F,7/12/2018 21:05:07,F DSV,2,3,2347,0,1,model incorrectly removed
+3024079261,F,7/12/2018 21:09:55,F DSV,2,4,84,0,1,model incorrectly removed
+2018921749,D,7/12/2018 21:10:07,D DSV,2,609,965,0,1,model incorrectly removed
+7816354068,F,7/12/2018 21:11:08,F DSV,2,1,1325,0,1,model incorrectly removed
+4234139958,F,7/12/2018 21:13:08,F DSV,2,1,4586,0,1,model incorrectly removed
+2533814726,F,7/12/2018 21:14:02,F DSV,2,1,845,0,1,model incorrectly removed
+9286075596,F,7/12/2018 21:15:03,F DSV,2,1,3724,0,1,model incorrectly removed
+9182815475,F,7/12/2018 21:15:03,F DSV,2,1,29,0,1,model incorrectly removed
+8187207694,F,7/12/2018 21:15:08,F DSV,2,3,1220,0,1,model incorrectly removed
+8187208342,F,7/12/2018 21:15:08,F DSV,2,3,1606,0,1,model incorrectly removed
+7192054716,F,7/12/2018 21:15:08,F DSV,2,3,3887,0,1,model incorrectly removed
+7202192695,F,7/12/2018 21:16:03,F DSV,2,1,1048,0,1,model incorrectly removed
+9312150590,B,7/12/2018 21:22:14,B DSV,2,NULL,1466,0,1,model incorrectly removed
+8644140457,F,7/12/2018 21:25:03,F DSV,2,1,3299,0,1,model incorrectly removed
+9564634138,F,7/12/2018 21:25:04,F DSV,2,3,1562,0,1,model incorrectly removed
+9097537981,F,7/12/2018 21:25:08,F DSV,2,3,460,0,1,model incorrectly removed
+7022032961,F,7/12/2018 21:25:13,F DSV,2,3,594,0,1,model incorrectly removed
+7187755919,F,7/12/2018 21:28:03,F DSV,2,1,2881,0,1,model incorrectly removed
+9704626089,B,7/12/2018 21:28:12,B DSV,2,NULL,2688,0,1,model incorrectly removed
+9522402547,F,7/12/2018 21:32:29,F DSV,2,1,3649,0,1,model incorrectly removed
+7083082100,F,7/12/2018 21:35:03,F DSV,2,1,3316,0,1,model incorrectly removed
+2625774653,F,7/12/2018 21:37:59,F DSV,2,6043,109,0,1,model incorrectly removed
+2075221683,F,7/12/2018 21:42:04,F DSV,2,1,6,0,1,model incorrectly removed
+7086068856,F,7/12/2018 21:45:05,F DSV,2,1,1506,0,1,model incorrectly removed
+3102209171,F,7/12/2018 21:48:04,F DSV,2,1,875,0,1,model incorrectly removed
+7023525655,F,7/12/2018 21:50:10,F DSV,2,3,777,0,1,model incorrectly removed
+9164942255,B,7/12/2018 21:50:52,B DSV,2,NULL,2330,0,1,model incorrectly removed
+4097811257,F,7/12/2018 21:52:04,F DSV,2,1,1353,0,1,model incorrectly removed
+7085418172,B,7/12/2018 22:00:49,B DSV,2,NULL,344,0,1,model incorrectly removed
+6186764396,E,7/12/2018 22:01:36,E DSV,2,NULL,214,0,1,model incorrectly removed
+7757726303,B,7/12/2018 22:02:02,B DSV,2,NULL,1276,0,1,model incorrectly removed
+3238237994,F,7/12/2018 22:02:04,F DSV,2,1,2150,0,1,model incorrectly removed
+3236290633,F,7/12/2018 22:02:04,F DSV,2,1,2150,0,1,model incorrectly removed
+7208846332,F,7/12/2018 22:02:05,F DSV,2,1,3414,0,1,model incorrectly removed
+3039213383,F,7/12/2018 22:04:05,F DSV,2,1,656,0,1,model incorrectly removed
+3109683580,F,7/12/2018 22:05:04,F DSV,2,1,3214,0,1,model incorrectly removed
+5026433425,D,7/12/2018 22:14:11,D DSV,2,3,269,0,1,model incorrectly removed
+5028514005,F,7/12/2018 22:14:11,F DSV,2,3,269,0,1,model incorrectly removed
+3473078979,F,7/12/2018 22:14:58,F DSV,2,4,2981,0,1,model incorrectly removed
+5095714847,F,7/12/2018 22:15:05,F DSV,2,1,276,0,1,model incorrectly removed
+4357608888,F,7/12/2018 22:18:05,F DSV,2,1,3415,0,1,model incorrectly removed
+6618559339,F,7/12/2018 22:19:58,F DSV,2,4,619,0,1,model incorrectly removed
+5038919105,F,7/12/2018 22:25:06,F DSV,2,3,908,0,1,model incorrectly removed
+5034227142,F,7/12/2018 22:25:06,F DSV,2,3,908,0,1,model incorrectly removed
+6196722409,F,7/12/2018 22:28:06,F DSV,2,1,1628,0,1,model incorrectly removed
+7819852552,F,7/12/2018 22:57:29,F DSV,2,4,4157,0,1,model incorrectly removed
+6307095446,E,7/12/2018 23:00:02,E DSV,2,NULL,2700,0,1,model incorrectly removed
+4253303083,F,7/12/2018 23:00:06,F DSV,2,1,12,0,1,model incorrectly removed
+2092416034,F,7/12/2018 23:01:05,F DSV,2,4,1662,0,1,model incorrectly removed
+2523731602,E,7/12/2018 23:05:17,E DSV,2,NULL,505,0,1,model incorrectly removed
+2035165278,F,7/12/2018 23:18:36,F DSV,2,1009,507,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+3157656541,F,7/12/2018 23:19:31,F DSV,2,5251,136,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+2038502438,F,7/12/2018 23:19:51,F DSV,2,6,1552,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5188055254,F,7/12/2018 23:21:36,F DSV,2,6,159,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5023384909,B,7/12/2018 23:23:30,B DSV,2,NULL,2771,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5023385303,B,7/12/2018 23:23:30,B DSV,2,NULL,2771,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+7163582249,F,7/12/2018 23:24:50,F DSV,2,5134,3617,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5084592739,F,7/12/2018 23:26:00,F DSV,2,873,476,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5089902771,F,7/12/2018 23:30:01,F DSV,2,4940,59,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+2609826285,F,7/12/2018 23:31:46,F DSV,2,1782,1935,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+3172807044,F,7/12/2018 23:32:11,F DSV,2,398,884,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+2405107448,F,7/12/2018 23:34:11,F DSV,2,6,566,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+3175465071,F,7/12/2018 23:34:16,F DSV,2,398,1697,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+3178891005,F,7/12/2018 23:35:51,F DSV,2,398,1550,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+7658968438,F,7/12/2018 23:42:11,F DSV,2,1009,819,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+2702470701,F,7/12/2018 23:45:46,F DSV,2,398,275,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+2394551724,F,7/12/2018 23:49:15,F DSV,2,858,1908,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+4103566556,F,7/12/2018 23:49:47,F DSV,2,4940,3856,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+2707821934,F,7/12/2018 23:50:27,F DSV,2,398,1837,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+4106609524,B,7/12/2018 23:50:57,B DSV,2,NULL,NULL,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+3477895851,F,7/12/2018 23:54:36,F DSV,2,3362,1756,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5022311620,F,7/12/2018 23:56:22,F DSV,2,398,1526,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5023679479,F,7/12/2018 23:56:56,F DSV,2,398,1966,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+5028299214,F,7/12/2018 23:58:57,F DSV,2,398,92,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+2152255592,F,7/12/2018 23:59:32,F DSV,2,4940,301,0,1,"actually bad, model correctly identified - non big 4 carrier winner"
+4052266549,B,7/13/2018 0:20:26,B DSV,2,NULL,600,0,1,"actually bad, model correctly identified"
+6122107132,B,7/13/2018 0:33:38,B DSV,2,NULL,1323,0,1,"actually bad, model correctly identified"
+6123600095,B,7/13/2018 0:34:23,B DSV,2,NULL,1056,0,1,"actually bad, model correctly identified"
+9408412938,B,7/13/2018 1:17:29,B DSV,2,NULL,NULL,0,1,"actually bad, model correctly identified"
+5059798832,B,7/13/2018 1:41:41,B DSV,2,NULL,NULL,0,1,"actually bad, model correctly identified"
+8144186008,E,7/13/2018 1:50:00,E DSV,2,NULL,343,5,0,model missed
+8707471336,F,7/13/2018 4:02:36,F DSV,2,858,14,0,1,
+4192697738,E,7/13/2018 5:41:39,E DSV,2,NULL,969,0,1,
+5302200477,E,7/13/2018 6:36:04,E DSV,2,NULL,1535,0,1,
+9092631255,B,7/13/2018 7:33:31,B DSV,2,NULL,2319,0,1,
+4239566977,E,7/13/2018 7:43:25,E DSV,2,NULL,60,0,1,
+5013757583,F,7/13/2018 8:00:01,F DSV,2,398,24,0,1,
+8167631703,F,7/13/2018 8:00:02,F DSV,2,398,1948,0,1,
+9137720101,F,7/13/2018 8:00:03,F DSV,2,398,17,0,1,
+2022256151,F,7/13/2018 8:00:03,F DSV,2,4940,4939,0,1,
+8182488833,F,7/13/2018 8:08:46,F DSV,2,398,1855,0,1,
+8503858408,F,7/13/2018 8:17:11,F DSV,2,858,1642,0,1,
+8504763367,F,7/13/2018 8:17:22,F DSV,2,398,219,0,1,
+8509832520,F,7/13/2018 8:17:47,F DSV,2,398,219,0,1,
+8564296086,F,7/13/2018 8:18:06,F DSV,2,4940,2679,0,1,
+2082203785,E,7/13/2018 8:19:56,E DSV,2,NULL,1344,0,1,
+8704214177,D,7/13/2018 8:25:36,D DSV,2,1,4686,0,1,
+2088705516,F,7/13/2018 8:40:06,F DSV,2,1,617,0,1,
+8042381945,F,7/13/2018 8:41:06,F DSV,2,1,3,0,1,
+9188152940,E,7/13/2018 8:41:27,E DSV,2,NULL,2160,0,1,
+9188410063,E,7/13/2018 8:41:37,E DSV,2,NULL,1964,0,1,
+9188942761,F,7/13/2018 8:41:37,F DSV,2,1,3097,0,1,
+9207402631,F,7/13/2018 8:43:02,F DSV,2,1,823,0,1,
+9208413139,F,7/13/2018 8:43:08,F DSV,2,1,165,0,1,
+7865863921,E,7/13/2018 8:43:10,E DSV,2,NULL,3280,0,1,
+9209463008,E,7/13/2018 8:43:23,E DSV,2,NULL,144,0,1,
+9255197889,F,7/13/2018 8:43:57,F DSV,2,1,1521,0,1,
+9258521864,F,7/13/2018 8:44:12,F DSV,2,1,942,0,1,
+7165971676,F,7/13/2018 8:47:06,F DSV,2,1,753,0,1,
+9293210461,F,7/13/2018 8:47:17,F DSV,2,1,526,0,1,
+2398721772,E,7/13/2018 8:47:26,E DSV,2,NULL,1086,0,1,
+9362756485,F,7/13/2018 8:47:53,F DSV,2,398,3871,0,1,
+3038776499,F,7/13/2018 8:49:17,F DSV,2,1,2665,0,1,
+9415863437,E,7/13/2018 8:50:58,E DSV,2,NULL,4484,0,1,
+9499297410,E,7/13/2018 8:51:57,E DSV,2,NULL,2880,0,1,
+9512194142,F,7/13/2018 8:52:02,F DSV,2,1,1611,0,1,
+9524577483,E,7/13/2018 8:52:43,E DSV,2,NULL,2318,0,1,
+9545587830,E,7/13/2018 8:53:38,E DSV,2,NULL,289,0,1,
+9546357833,F,7/13/2018 8:53:48,F DSV,2,1,524,0,1,
+2105842349,E,7/13/2018 8:54:11,E DSV,2,NULL,2088,0,1,
+9548828551,E,7/13/2018 8:54:18,E DSV,2,NULL,998,0,1,
+4237828468,F,7/13/2018 8:54:32,F DSV,2,1,64,0,1,
+9565221856,E,7/13/2018 8:54:52,E DSV,2,NULL,1325,0,1,
+4238632913,F,7/13/2018 8:55:07,F DSV,2,1,64,0,1,
+9709893870,F,7/13/2018 8:55:32,F DSV,2,1,850,0,1,
+9713271495,F,7/13/2018 8:55:38,F DSV,2,6,419,0,1,
+9713446406,E,7/13/2018 8:55:43,E DSV,2,NULL,189,0,1,
+9715704801,E,7/13/2018 8:55:43,E DSV,2,NULL,2992,0,1,
+9726705474,E,7/13/2018 8:56:38,E DSV,2,NULL,1238,0,1,
+9728008536,F,7/13/2018 8:56:53,F DSV,2,1,1583,0,1,
+9728721435,E,7/13/2018 8:56:57,E DSV,2,NULL,1239,0,1,
+9733329046,E,7/13/2018 8:57:13,E DSV,2,NULL,1380,0,1,
+9739037550,F,7/13/2018 8:57:48,F DSV,2,1,3184,0,1,
+9788772564,F,7/13/2018 8:58:53,F DSV,2,1,1322,0,1,
+9792683936,D,7/13/2018 8:59:22,D DSV,2,1782,4993,0,1,
+9798646193,F,7/13/2018 8:59:37,F DSV,2,398,3895,0,1,
+2089496240,F,7/13/2018 21:00:03,F DSV,2,1,3,0,1,
+3305544029,F,7/13/2018 21:00:04,F DSV,2,3,935,0,1,
+9512593648,D,7/13/2018 21:00:05,D DSV,2,609,980,0,1,
+8508199709,F,7/13/2018 21:05:03,F DSV,2,1,314,0,1,
+3609040200,F,7/13/2018 21:05:04,F DSV,2,1,3287,0,1,
+8046588078,F,7/13/2018 21:06:03,F DSV,2,1,1291,0,1,
+7029081492,B,7/13/2018 21:09:11,B DSV,2,NULL,864,0,1,
+8022747416,F,7/13/2018 21:11:04,F DSV,2,1,361,0,1,
+5052388249,F,7/13/2018 21:11:04,F DSV,2,1,267,0,1,
+5053737150,F,7/13/2018 21:11:04,F DSV,2,1,263,0,1,
+7143156268,F,7/13/2018 21:12:04,F DSV,2,1,8,0,1,
+5095285126,B,7/13/2018 21:15:29,B DSV,2,NULL,194,0,1,
+6239806295,F,7/13/2018 21:19:04,F DSV,2,1,803,0,1,
+3098397250,F,7/13/2018 21:21:27,F DSV,2,3,303,0,1,
+3093235700,F,7/13/2018 21:21:27,F DSV,2,3,303,0,1,
+2086604967,F,7/13/2018 21:24:03,F DSV,2,1,1467,0,1,
+8644143814,F,7/13/2018 21:24:05,F DSV,2,1,902,0,1,
+6239804397,F,7/13/2018 21:27:04,F DSV,2,1,803,0,1,
+7022784065,F,7/13/2018 21:28:04,F DSV,2,1,3439,0,1,
+9167475748,F,7/13/2018 21:32:05,F DSV,2,1,15,0,1,
+9514035143,F,7/13/2018 21:34:05,F DSV,2,1,1484,0,1,
+2192210012,F,7/13/2018 21:36:05,F DSV,2,1,1371,0,1,
+8589222176,F,7/13/2018 21:37:04,F DSV,2,1,1016,0,1,
+8589973161,F,7/13/2018 21:37:04,F DSV,2,1,1016,0,1,
+8183844695,B,7/13/2018 21:39:14,B DSV,2,NULL,66,0,1,
+3306148493,F,7/13/2018 21:40:05,F DSV,2,1,480,0,1,
+5152307953,F,7/13/2018 21:43:05,F DSV,2,1,853,0,1,
+4409940008,F,7/13/2018 21:44:54,F DSV,2,4,2232,0,1,
+9514031959,F,7/13/2018 21:48:05,F DSV,2,1,874,0,1,
+2069482511,F,7/13/2018 21:50:06,F DSV,2,1,3565,0,1,
+2094049243,F,7/13/2018 21:51:06,F DSV,2,1,527,0,1,
+5106737312,F,7/13/2018 21:51:06,F DSV,2,1,2866,0,1,
+7733086428,F,7/13/2018 21:52:05,F DSV,2,1,761,0,1,
+7737062710,F,7/13/2018 21:52:05,F DSV,2,1,761,0,1,
+7737068417,F,7/13/2018 21:52:05,F DSV,2,1,763,0,1,
+4089667019,F,7/13/2018 21:54:06,F DSV,2,1,930,0,1,
+7738149699,F,7/13/2018 21:54:54,F DSV,2,4,3218,0,1,
+8646160997,F,7/13/2018 22:00:05,F DSV,2,1,790,0,1,
+5755132654,E,7/13/2018 22:01:04,E DSV,2,NULL,600,0,1,
+6203390823,E,7/13/2018 22:03:09,E DSV,2,NULL,2814,0,1,
+3342086353,E,7/13/2018 22:03:17,E DSV,2,NULL,2773,0,1,
+2694498769,E,7/13/2018 22:03:30,E DSV,2,NULL,2793,0,1,
+4128556232,F,7/13/2018 22:05:06,F DSV,2,1,1180,0,1,
+8058891429,F,7/13/2018 22:05:06,F DSV,2,1,1016,0,1,
+8646304877,F,7/13/2018 22:06:06,F DSV,2,1,790,0,1,
+7603317791,F,7/13/2018 22:06:06,F DSV,2,1,4337,0,1,
+9135936839,F,7/13/2018 22:06:49,F DSV,2,3,3747,0,1,
+7576177609,F,7/13/2018 22:10:26,F DSV,2,1,3554,0,1,
+5139399444,F,7/13/2018 22:15:07,F DSV,2,1,1244,0,1,
+2293006896,F,7/13/2018 22:19:06,F DSV,2,1,3119,0,1,
+9704816333,B,7/13/2018 22:23:18,B DSV,2,NULL,2293,0,1,
+7609539574,F,7/13/2018 22:25:07,F DSV,2,1,160,0,1,
+5093795347,F,7/13/2018 22:35:02,F DSV,2,1,857,0,1,
+4023500514,F,7/13/2018 22:35:07,F DSV,2,1,902,0,1,
+6262464281,F,7/13/2018 22:43:51,F DSV,2,4,3119,0,1,
+8184257752,F,7/13/2018 22:47:07,F DSV,2,1,3208,0,1,
+7609539579,F,7/13/2018 22:54:08,F DSV,2,1,160,0,1,
+3614826269,E,7/13/2018 23:00:06,E DSV,2,NULL,2929,0,1,
+3157614046,F,7/13/2018 23:19:50,F DSV,2,5251,774,0,1,
+4695874459,F,7/13/2018 23:20:50,F DSV,2,6,1081,0,1,
+8605611539,F,7/13/2018 23:22:19,F DSV,2,1782,262,0,1,
+4013324432,F,7/13/2018 23:23:55,F DSV,2,6,1162,0,1,
+4136864561,F,7/13/2018 23:25:30,F DSV,2,6,120,0,1,
+5082853134,F,7/13/2018 23:26:00,F DSV,2,4940,913,0,1,
+2603474166,F,7/13/2018 23:28:00,F DSV,2,398,1249,0,1,
+2604861322,D,7/13/2018 23:28:15,D DSV,2,1782,2994,0,1,
+2608330583,D,7/13/2018 23:28:40,D DSV,2,1782,4435,0,1,
+2609273700,F,7/13/2018 23:28:45,F DSV,2,398,3403,0,1,
+6038244429,F,7/13/2018 23:29:05,F DSV,2,6,209,0,1,
+3179810594,F,7/13/2018 23:30:15,F DSV,2,6,210,0,1,
+5746522686,F,7/13/2018 23:31:01,F DSV,2,4376,1953,0,1,
+7657547359,F,7/13/2018 23:32:35,F DSV,2,1782,1982,0,1,
+8123842168,F,7/13/2018 23:33:10,F DSV,2,398,3882,0,1,
+8125975197,F,7/13/2018 23:33:15,F DSV,2,398,114,0,1,
+2769794298,F,7/13/2018 23:33:20,F DSV,2,5251,220,0,1,
+9784630022,F,7/13/2018 23:34:40,F DSV,2,4940,2065,0,1,
+9787455505,F,7/13/2018 23:35:00,F DSV,2,4940,765,0,1,
+3044253504,F,7/13/2018 23:35:20,F DSV,2,1782,486,0,1,
+3047223473,F,7/13/2018 23:36:50,F DSV,2,1782,1367,0,1,
+3475360866,F,7/13/2018 23:38:31,F DSV,2,4,562,0,1,
+4102762814,F,7/13/2018 23:39:10,F DSV,2,4940,3530,0,1,
+4104518483,F,7/13/2018 23:39:41,F DSV,2,4940,2206,0,1,
+4349853248,F,7/13/2018 23:42:16,F DSV,2,858,1655,0,1,
+4438575499,F,7/13/2018 23:44:54,F DSV,2,4,2490,0,1,
+7033477984,F,7/13/2018 23:51:45,F DSV,2,1170,1974,0,1,
+7034542756,F,7/13/2018 23:51:56,F DSV,2,6,301,0,1,
+7579775383,F,7/13/2018 23:56:31,F DSV,2,6,239,0,1,
+7579989703,F,7/13/2018 23:56:36,F DSV,2,6,855,0,1,
+2706838488,F,7/13/2018 23:57:26,F DSV,2,398,1991,0,1,
+2708218320,F,7/13/2018 23:57:56,F DSV,2,398,1083,0,1,
+2708274764,F,7/13/2018 23:57:56,F DSV,2,398,1859,0,1,
+3369958563,B,7/12/2018 4:09:24,B DSV,3,NULL,197,0,1,
+3178206267,B,7/12/2018 4:11:39,B DSV,3,NULL,NULL,0,1,
+2254478108,B,7/12/2018 4:16:40,B DSV,3,NULL,NULL,0,1,
+6575497184,E,7/13/2018 4:03:31,E DSV,3,NULL,269,5,0,model missed
+9726219841,E,7/13/2018 4:03:31,E DSV,3,NULL,275,5,0,model missed
+2399386641,E,7/13/2018 4:03:32,E DSV,3,NULL,284,5,0,model missed
+2058725322,E,7/13/2018 4:03:32,E DSV,3,NULL,90,5,0,model missed
+4804693156,B,7/13/2018 5:12:27,B DSV,3,NULL,NULL,0,1,
+7022419965,E,7/12/2018 0:29:41,E DSV,4,NULL,3020,5,0,model missed
+4087688213,F,7/12/2018 19:15:00,F DSV,4,2,264,0,1,
+7204700645,E,7/13/2018 0:31:04,E DSV,4,NULL,987,5,0,model missed
+6169017595,F,7/13/2018 16:40:00,F DSV,4,1,176,0,1,
+9139122970,F,7/13/2018 17:35:00,F DSV,4,1,850,0,1,
+8159223638,F,7/13/2018 17:45:00,F DSV,4,1,607,0,1,
+7732975620,D,7/12/2018 17:20:00,D DSV,6,3,455,0,1,
+2104096506,B,7/13/2018 0:43:16,B DSV,6,NULL,274,0,1,
+8323785563,B,7/13/2018 0:46:35,B DSV,6,NULL,304,0,1,
+4695095870,E,7/13/2018 0:50:32,E DSV,6,NULL,108,5,0,model missed
+2107174084,E,7/13/2018 1:24:34,E DSV,6,NULL,274,5,0,model missed
+3462069934,E,7/13/2018 1:24:34,E DSV,6,NULL,123,5,0,model missed
+9152018055,E,7/13/2018 1:24:34,E DSV,6,NULL,1144,5,0,model missed
+,,,,,,,,,
