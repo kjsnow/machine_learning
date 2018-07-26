@@ -15,18 +15,18 @@ def main():
 								save_results=config.save_results,
 								raw_file_path=config.raw_file_path)
 	
-	print 'Params created'
+	print('Params created')
 
 	# Run query or load file from folder
 	sample = hf.fetch_data(params=params, credentials=config.creds)
 
-	print 'Fetch complete, setting up inputs'
+	print('Fetch complete, setting up inputs')
 
 	# Split training and testing
 	# if last_day_testing == True, last day of churn will be testing set, otherwise shuffle
 	inputs = hf.shuffle_split(sample, last_day_testing=params.last_day_testing)
 
-	print 'Inputs ready, running model'
+	print('Inputs ready, running model')
 
 	hf.ann(params=params, inputs=inputs)
 
