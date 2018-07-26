@@ -1,11 +1,12 @@
 
-import ConfigParser
+import configparser
 import datetime as dt
 
-config = ConfigParser.ConfigParser()
+config = configparser.ConfigParser()
 
 # Path to your sql credentials ini file
-credentials_path = 'C:\Users\ksnow\Desktop\credentials'
+#credentials_path = 'C:\Users\ksnow\Desktop\credentials'
+credentials_path = 'D:\Kyle\Work\credentials'
 
 # Input path to location to save all machine_learning related files
 storage_path = '\\\\storage.comlinkdata.com\\Data Ops\\Users\\Snow\\machine_learning'
@@ -20,10 +21,13 @@ experiment = 'baseline'
 to_query = False
 
 # Number of hidden nodes
-num_nodes = 50
+num_nodes = 5
+
+# Number of hidden layers
+num_layers = 2
 
 # Number of iterations
-num_iterations = 5000
+num_epochs = 1000
 
 # Learning Rate
 learning_rate = .000001
@@ -32,7 +36,7 @@ learning_rate = .000001
 save_results = True
 
 # To make the testing set the last day of data set to True
-last_day_testing = True
+last_day_testing = False
 
 # Default to pull last week of data
 start_date =  dt.datetime.now().date() - dt.timedelta(days=10)
@@ -94,7 +98,7 @@ from com_cdm_stage..f_final_churn_reporting where churn_date >= '{0}' and churn_
 
 # DO NOT CHANGE BELOW
 # Credentials read based on env
-config.read('C:\Users\ksnow\Desktop\credentials\sql_credentials.ini')
+config.read(credentials_path + '\sql_credentials.ini')
 
 class SQL_Credentials:
 	def __init__(self, env):
