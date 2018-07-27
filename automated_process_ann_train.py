@@ -7,7 +7,7 @@ def main():
 								query=config.query,
 								col_list=config.col_list, 
 								num_nodes=config.num_nodes, 
-								num_iterations=config.num_iterations, 
+								num_epochs=config.num_epochs, 
 								learning_rate=config.learning_rate,
 								last_day_testing=config.last_day_testing,
 								storage_path=config.storage_path,
