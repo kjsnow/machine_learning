@@ -173,6 +173,7 @@ for i in my_playlist_tracks['tracks']['items']:
     
 my_tracks_ids
 
+test = [sp.audio_features(x) for x in my_tracks_ids]
 #my_tracks_analysis = map(sp.audio_analysis, my_tracks_ids[0:1])
 #my_tracks_analysis = [sp.audio_analysis(track_id) for track_id in my_track_ids]
 my_tracks_analysis = []
@@ -180,14 +181,20 @@ my_tracks_features = []
 for i in my_tracks_ids:
     my_tracks_analysis.append(sp.audio_analysis(i))
     my_tracks_features.append(sp.audio_features(i))
-
-my_tracks_danceability = []
-my_tracks_energy = []
-for i in my_tracks_features:
-    my_tracks_danceability.append(i[0]['danceability'])
-    my_tracks_energy.append(i[0]['energy'])
     
-plt = matplotlib.pyplot.scatter(x=my_tracks_danceability, y=my_tracks_energy)
+my_tracks_analysis = [sp.audio_analysis(x) for x in my_tracks_ids]
+my_tracks_features = [sp.audio_features(x) for x in my_tracks_ids]
+
+for i, ids in enumerate(my_tracks_features):
+    print(i, ': ', ids)
+
+my_tracks_instrumentalness = []
+my_tracks_speechiness = []
+for i in my_tracks_features:
+    my_tracks_instrumentalness.append(i[0]['instrumentalness'])
+    my_tracks_speechiness.append(i[0]['speechiness'])
+    
+plt = matplotlib.pyplot.scatter(x=my_tracks_instrumentalness, y=my_tracks_speechiness)
 
 # Create a trace
 danceability_energy_trace = go.Scatter(
